@@ -1,0 +1,50 @@
+.right{
+    font-size: 2vw;
+}
+.actualPrice{
+    color: green;
+}
+
+.left{
+    width: 40%;
+    float: left;
+    height: 50vh;
+}
+.right{
+    width:50%;
+    float:left;
+    padding:15px;
+    
+}
+.card{
+    background-color: antiquewhite;
+    text-align: center;
+}
+img{
+    border-radius: 15px;
+    max-width: 100%;
+    
+}
+.btn{
+    padding: 15px 32px;
+    border: none;
+    background-color: green;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+
+}
+h5{
+    text-decoration: line-through;
+}
+.pricing{
+    margin: 10px 0px;
+}
+
+@media screen and (max-width:800%) {
+    .left,.right{
+        width: 100%;
+    }
+    
+}
